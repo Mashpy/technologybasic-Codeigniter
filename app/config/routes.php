@@ -42,7 +42,7 @@ $route['terms/(:num)'] = 'terms/view/$1';
 $route['terms'] = 'terms';
 $route['default_controller'] = 'terms/index';
 $route['terms/details/(:any)'] = 'details/view/$1';
-
+$route['admin/create'] = 'admin/create';
 
 
 /* End of file routes.php */

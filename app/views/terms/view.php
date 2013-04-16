@@ -1,5 +1,6 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> TechnologyBasic- Terms information</title>
 <?php foreach($term_item as $tech_term):?>
  <h2><?php echo $tech_term['title'] ?></h2>
     <div id="main">
