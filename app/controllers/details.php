@@ -1,0 +1,1 @@
+<?phpclass Details extends CI_Controller {	public function __construct()	{		parent::__construct();		$this->load->model('tech_model');	}	public function view($slug){	$data['data_details'] = $this->tech_model->get_details($slug);	if (empty($data['data_details']))	{		show_404();	}	$this->load->view('details/view', $data);}}

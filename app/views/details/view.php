@@ -1,0 +1,1 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><?phpecho '<h2>'.$data_details['title'].'</h2>';echo $data_details['introtext'];
